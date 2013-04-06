@@ -30,10 +30,14 @@ static hlist<pair<CPoint,int> >				pointToLeaf;
 void CM_CleanLeafCache(void)
 {
 	hlist<pair<CPoint,int> >::iterator l;
-	for(l=pointToLeaf.begin();l!=pointToLeaf.end();l++)
-	{
-		pointToLeaf.erase(l);
-	}
+
+	// PJB: HOW DID THIS EVER WORK
+	//for(l=pointToLeaf.begin();l!=pointToLeaf.end();l++)
+	//{
+	//	pointToLeaf.erase(l);
+	//}
+	pointToLeaf.clear();
+	
 /*
 	for(l=pointToContents.begin();l!=pointToContents.end();l++)
 	{

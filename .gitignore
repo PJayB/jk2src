@@ -13,3 +13,5 @@ Template
 saves
 jk2config.cfg
 *.suo
+ipch
+code/ipch

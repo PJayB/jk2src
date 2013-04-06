@@ -91,7 +91,7 @@
     <OutDir>$(SolutionDir)</OutDir>
     <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>jk2sp</TargetName>
+    <TargetName>jk2sp_d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)</OutDir>
@@ -1853,12 +1853,6 @@
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="game\game.vcxproj">
-      <Project>{6bc0d4dc-149b-413d-b88c-7c2309e0714f}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

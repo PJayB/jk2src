@@ -65,25 +65,25 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)</OutDir>
+    <OutDir>$(SolutionDir)$(Configuration)</OutDir>
     <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>jk2gamex86</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)</OutDir>
+    <OutDir>$(SolutionDir)$(Configuration)</OutDir>
     <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>jk2gamex86</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FinalBuild|Win32'">
-    <OutDir>$(SolutionDir)</OutDir>
+    <OutDir>$(SolutionDir)$(Configuration)</OutDir>
     <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>jk2gamex86</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SHDebug|Win32'">
-    <OutDir>$(SolutionDir)</OutDir>
+    <OutDir>$(SolutionDir)$(Configuration)</OutDir>
     <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>jk2gamex86</TargetName>

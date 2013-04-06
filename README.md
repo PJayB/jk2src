@@ -9,7 +9,7 @@ Copy your "base" folder into the "code" folder, merging the files, and build Sta
 
 For a good debugging experience, I recommend hitting Alt+Enter as soon as the game hits the main menu.
 
-"Why not Jedi Academy?" I hear you cry. That's still a work-in-progress. Raven have released the Xbox-specific source to the game which will involve a great deal of untangling. Watch this space.
+Jedi Academy also fixed up here: https://github.com/PJayB/jk3src
 
 Feel free to email me at jedi2@gibbering.net
 

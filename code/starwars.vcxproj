@@ -76,24 +76,33 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FinalBuild|Win32'">
-    <OutDir>.\FinalBuild\</OutDir>
-    <IntDir>.\FinalBuild\exe\</IntDir>
+    <OutDir>$(SolutionDir)</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <TargetName>jk2sp</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SHDebug|Win32'">
-    <OutDir>.\SHDebug\</OutDir>
-    <IntDir>.\SHDebug\exe\</IntDir>
+    <OutDir>$(SolutionDir)</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
+    <TargetName>jk2sp</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>.\Debug\</OutDir>
-    <IntDir>.\Debug\exe\</IntDir>
+    <OutDir>$(SolutionDir)</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
+    <TargetName>jk2sp</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>.\Release\</OutDir>
-    <IntDir>.\Release\exe\</IntDir>
+    <OutDir>$(SolutionDir)</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <TargetName>jk2sp</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <OutDir>$(SolutionDir)</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\</IntDir>
+    <TargetName>jk2sp</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FinalBuild|Win32'">
     <ClCompile>

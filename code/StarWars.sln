@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "game\game.vcxproj", "{6BC0D4DC-149B-413D-B88C-7C2309E0714F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "starwars", "starwars.vcxproj", "{95BDEC3B-97D8-4B3A-B2F1-8F6F8E1F1736}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		FinalBuild|Win32 = FinalBuild|Win32
+		Release|Win32 = Release|Win32
+		SHDebug|Win32 = SHDebug|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BC0D4DC-149B-413D-B88C-7C2309E0714F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BC0D4DC-149B-413D-B88C-7C2309E0714F}.Debug|Win32.Build.0 = Debug|Win32
+		{6BC0D4DC-149B-413D-B88C-7C2309E0714F}.FinalBuild|Win32.ActiveCfg = FinalBuild|Win32
+		{6BC0D4DC-149B-413D-B88C-7C2309E0714F}.FinalBuild|Win32.Build.0 = FinalBuild|Win32
+		{6BC0D4DC-149B-413D-B88C-7C2309E0714F}.Release|Win32.ActiveCfg = Release|Win32
+		{6BC0D4DC-149B-413D-B88C-7C2309E0714F}.Release|Win32.Build.0 = Release|Win32
+		{6BC0D4DC-149B-413D-B88C-7C2309E0714F}.SHDebug|Win32.ActiveCfg = SHDebug|Win32
+		{6BC0D4DC-149B-413D-B88C-7C2309E0714F}.SHDebug|Win32.Build.0 = SHDebug|Win32
+		{6BC0D4DC-149B-413D-B88C-7C2309E0714F}.Template|Win32.ActiveCfg = Release|Win32
+		{6BC0D4DC-149B-413D-B88C-7C2309E0714F}.Template|Win32.Build.0 = Release|Win32
+		{95BDEC3B-97D8-4B3A-B2F1-8F6F8E1F1736}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95BDEC3B-97D8-4B3A-B2F1-8F6F8E1F1736}.Debug|Win32.Build.0 = Debug|Win32
+		{95BDEC3B-97D8-4B3A-B2F1-8F6F8E1F1736}.FinalBuild|Win32.ActiveCfg = FinalBuild|Win32
+		{95BDEC3B-97D8-4B3A-B2F1-8F6F8E1F1736}.FinalBuild|Win32.Build.0 = FinalBuild|Win32
+		{95BDEC3B-97D8-4B3A-B2F1-8F6F8E1F1736}.Release|Win32.ActiveCfg = Release|Win32
+		{95BDEC3B-97D8-4B3A-B2F1-8F6F8E1F1736}.Release|Win32.Build.0 = Release|Win32
+		{95BDEC3B-97D8-4B3A-B2F1-8F6F8E1F1736}.SHDebug|Win32.ActiveCfg = SHDebug|Win32
+		{95BDEC3B-97D8-4B3A-B2F1-8F6F8E1F1736}.SHDebug|Win32.Build.0 = SHDebug|Win32
+		{95BDEC3B-97D8-4B3A-B2F1-8F6F8E1F1736}.Template|Win32.ActiveCfg = Template|Win32
+		{95BDEC3B-97D8-4B3A-B2F1-8F6F8E1F1736}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

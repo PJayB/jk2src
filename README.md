@@ -5,7 +5,7 @@ Jedi Knight II Source Code compiled in Visual Studio 2012 &amp; Windows 8 SDK. I
 
 I've only fixed up the single-player source. This code is provided with the "It Works On My Machine" guarantee (i.e. no guarantee).
 
-Copy your "base" folder into the "code" folder, merging the files, and build StarWars.sln. If you have the disk, this is probably in %PROGRAMFILES%\LucasArts\Star Wars Jedi Knight II\GameData\base (or something like that) or if you have the Steam version, look for %STEAM%\steamapps\common\jedi outcast\GameData\base.
+Copy your "base" folder into the "code" folder, merging the files, and build StarWars.sln. If you have the disk edition of the game, this is probably in %PROGRAMFILES%\LucasArts\Star Wars Jedi Knight II\GameData\base (or something like that) or if you have the Steam version, look for %STEAM%\steamapps\common\jedi outcast\GameData\base.
 
 For a good debugging experience, I recommend hitting Alt+Enter as soon as the game hits the main menu.
 

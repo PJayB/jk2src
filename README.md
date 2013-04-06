@@ -1,7 +1,7 @@
 jk2src
 ======
 
-Jedi Knight II Source Code compiled in Visual Studio 2012 &amp; Windows 8 SDK
+Jedi Knight II Source Code compiled in Visual Studio 2012 &amp; Windows 8 SDK. If you nobble the .sln and .vcxproj files, you could easily load this in VS2010 with the DirectX SDK.
 
 This is a work in progress, but it does compile in Debug. Whether it runs is 
 "future work" :)

@@ -15,3 +15,6 @@ jk2config.cfg
 *.suo
 ipch
 code/ipch
+code/.vs
+code/base
+*.user

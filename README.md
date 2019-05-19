@@ -9,6 +9,8 @@ This code is provided with the "It Works On My Machine" guarantee (i.e. no guara
 
 Copy your "base" folder into the "code" folder, merging the files, and build StarWars.sln. If you have the disk edition of the game, this is probably in %PROGRAMFILES%\LucasArts\Star Wars Jedi Knight II\GameData\base (or something like that) or if you have the Steam version, look for %STEAM%\steamapps\common\jedi outcast\GameData\base.
 
+Make sure 'starwars' is the Startup Project in Visual Studio before hitting F5. 
+
 For a good debugging experience, I recommend hitting Alt+Enter as soon as the game hits the main menu.
 
 Jedi Knight II: Jedi Outcast
